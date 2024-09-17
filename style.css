@@ -101,6 +101,39 @@ body {
 .hide {
     display: none;
 }
+.choose-symbol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.choose-button {
+    background-color: #4CAF50; 
+    color: white; 
+    padding: 15px 30px; 
+    margin: 0 10px; 
+    border: none; 
+    border-radius: 8px; 
+    font-size: 18px; 
+    font-weight: bold;
+    cursor: pointer; 
+    transition: background-color 0.3s ease;
+}
+
+.choose-button:hover {
+    background-color: #45a049; /
+}
+
+.choose-button:focus {
+    outline: none; 
+}
+
+.choose-button:active {
+    transform: scale(0.98); 
+    background-color: #388E3C; 
+}
+
 @keyframes appear {
     0% {
         opacity: 0;
